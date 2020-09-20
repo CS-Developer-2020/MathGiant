@@ -28,10 +28,11 @@ Try to collect as many coins as possible. Get additional bombs and challenge you
 </p>
 
 <h1>Screenshots: </h1>
-![1](https://user-images.githubusercontent.com/69819945/93717935-893c3a00-fb81-11ea-87e7-37d7b8a0796d.png)
-![2](https://user-images.githubusercontent.com/69819945/93718012-04055500-fb82-11ea-9c90-67a644c2e572.png)
-![3](https://user-images.githubusercontent.com/69819945/93718025-11bada80-fb82-11ea-9605-786503135ece.png)
-![4](https://user-images.githubusercontent.com/69819945/93718027-154e6180-fb82-11ea-99d1-5e6005eaf7fa.png)
-![5](https://user-images.githubusercontent.com/69819945/93718030-18495200-fb82-11ea-98ed-7fb7ae7deb65.png)
-![6](https://user-images.githubusercontent.com/69819945/93718032-1aabac00-fb82-11ea-916f-ccbd1a2c2728.png)
-![7](https://user-images.githubusercontent.com/69819945/93718033-1c756f80-fb82-11ea-94aa-69963214823a.png)
+<img src="https://user-images.githubusercontent.com/69819945/93717935-893c3a00-fb81-11ea-87e7-37d7b8a0796d.png">
+<img src="https://user-images.githubusercontent.com/69819945/93718012-04055500-fb82-11ea-9c90-67a644c2e572.png">
+<img src="https://user-images.githubusercontent.com/69819945/93718025-11bada80-fb82-11ea-9605-786503135ece.png">
+<img src="https://user-images.githubusercontent.com/69819945/93718027-154e6180-fb82-11ea-99d1-5e6005eaf7fa.png">
+<img src="https://user-images.githubusercontent.com/69819945/93718030-18495200-fb82-11ea-98ed-7fb7ae7deb65.png">
+<img src="https://user-images.githubusercontent.com/69819945/93718032-1aabac00-fb82-11ea-916f-ccbd1a2c2728.png">
+<img src="https://user-images.githubusercontent.com/69819945/93718033-1c756f80-fb82-11ea-94aa-69963214823a.png">
+
