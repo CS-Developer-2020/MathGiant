@@ -8,6 +8,7 @@
 The game was developed, designed and implemented using SQLite, Multithreading, Animations, Adapters, Intents, Services.</p>
 
 <b> Here you can find a summary of our project:</b>
+https://youtu.be/yrNcK4zmwLM
 
 
 <h1>What is the purpose of the game?</h1>
