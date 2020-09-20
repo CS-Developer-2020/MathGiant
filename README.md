@@ -11,6 +11,10 @@ The game was developed, designed and implemented using SQLite, Multithreading, A
 <br>
 https://youtu.be/yrNcK4zmwLM
 
+A mathematical game to solving essay and subtraction, multiplication and division exercises. The difficulty levels are: beginner and advanced. Each stage is accompanied by experiential music, animations and sounds.
+To control music used Singelton pattern. User can turn off/on music and vibration at any time. To flip balloons on screen used Asynchronous thread. Have a high score table. To get to the next level you have to answer 8 times correctly, to lose you have 3 attempts to make a mistake.
+
+
 
 <h1>What is the purpose of the game?</h1>
 <p>Swipe your finger to guide a spaceship in the galaxy to avoid asteroids and collect coins.
