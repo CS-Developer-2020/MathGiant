@@ -28,3 +28,4 @@ Try to collect as many coins as possible. Get additional bombs and challenge you
 </p>
 
 <h1>Screenshots: </h1>
+![1](https://user-images.githubusercontent.com/69819945/93717935-893c3a00-fb81-11ea-87e7-37d7b8a0796d.png)
