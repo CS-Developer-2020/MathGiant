@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Giant</string>
+
+
+    <string name="player_name">שחקן :</string>
+    <string name="class_grade">כיתה :</string>
+    <string name="level">שלב :</string>
+    <string name="normal_radio_str">מתחילים</string>
+    <string name="advance_radio_str">מתקדמים</string>
+    <string name="start_str">התחל</string>
+    <string name="back_str">חזור</string>
+    <string name="quit_str">יציאה</string>
+    <string name="start_new_game_str">התחל משחק חדש</string>
+    <string name="continue_str">המשך</string>
+    <string name="high_score_str">"טבלת שיאים "</string>
+    <string name="first_second_grade">א - ב</string>
+    <string name="third_fourth_grade">ג - ד</string>
+    <string name="fifth_sixth_grade">ה - ו</string>
+    <string name="seventh_eighth_grade">ז - ח</string>
+    <string name="game_over_sorry">אנחנו מצטערים!</string>
+    <string name="game_over_scor">"הניקוד שלך : "</string>
+
+</resources>

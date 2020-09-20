@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register_layout"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+    android:background="@mipmap/registeration_background">
+
+    <EditText
+        android:id="@+id/player_ET"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/rectangle_registeration"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/player_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="40dp"
+
+
+        android:gravity="center"
+        android:text="@string/player_name"
+        android:textColor="@color/red"
+        android:textSize="40sp"
+
+        android:textStyle="italic" />
+
+    <Spinner
+        android:id="@+id/class_spinner"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/player_ET"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_registeration"
+        android:gravity="center"
+
+
+        />
+
+    <TextView
+        android:id="@+id/class_TV"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/player_ET"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/class_grade"
+        android:textColor="@color/red"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/level_TV"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/class_TV"
+        android:layout_marginStart="93dp"
+        android:gravity="center"
+        android:text="@string/level"
+        android:textColor="@color/red"
+        android:textSize="45sp"
+
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_difficult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/class_spinner"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/level_TV"
+        android:orientation="horizontal"
+
+        >
+
+
+        <RadioButton
+            android:id="@+id/normal_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/red"
+            android:text="@string/normal_radio_str"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:checked="true"
+
+            />
+
+        <RadioButton
+            android:id="@+id/advance_radio_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:buttonTint="@color/red"
+            android:text="@string/advance_radio_str"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+
+            android:textStyle="bold"
+
+            />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/brain_IV"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/radio_group_difficult"
+        android:layout_marginStart="70dp"
+        android:layout_toEndOf="@id/start_register_btn"
+        android:layout_marginTop="0dp"
+        android:src="@mipmap/brain_registeration" />
+
+    <Button
+        android:id="@+id/start_register_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/level_TV"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/time_life"
+        android:text="@string/start_str"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/level_TV"
+
+        android:layout_marginTop="50dp"
+        android:background="@drawable/time_life"
+android:layout_marginStart="480dp"
+        android:text="@string/back_str"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

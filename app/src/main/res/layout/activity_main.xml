@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/first_screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/first_screen_background">
+
+
+    <TextView
+        android:id="@+id/name_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/under_line_text_view"
+        android:text="The Math Giant"
+        android:textColor="@color/colorAccent"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/green_book_btn"
+        android:layout_width="143dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="22dp"
+        android:layout_toEndOf="@id/name_TV"
+        android:background="@color/empty"
+        android:foreground="@mipmap/close_book_green"
+        android:scaleType="fitXY"
+        android:src="@mipmap/close_book_green"
+
+
+        />
+
+    <Button
+        android:id="@+id/book_green_btn"
+        android:layout_width="80dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="515dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/empty"
+
+        />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginTop="37dp"
+        android:rotation="340"
+        android:text="@string/high_score_str"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+    <ImageButton
+        android:id="@+id/orange_book_IB"
+        android:layout_width="130dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/close_book_orange"
+        android:background="@color/empty"/>
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/podium_IV"
+        android:layout_width="476dp"
+        android:layout_height="116dp"
+        android:layout_below="@id/name_TV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/podium" />
+
+    <Button
+        android:id="@+id/brain_quit_btn"
+        android:layout_width="106dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/empty"
+        android:clickable="false"
+        android:foreground="@mipmap/brain_2_podium" />
+
+    <Button
+        android:id="@+id/brain__start_btn"
+        android:layout_width="204dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="110dp"
+        android:background="@color/empty"
+        android:clickable="false"
+        android:foreground="@mipmap/brain_1_podium" />
+
+    <Button
+        android:id="@+id/brain_continue_btn"
+        android:layout_width="102dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="430dp"
+        android:layout_marginTop="130dp"
+        android:background="@color/empty"
+        android:clickable="false"
+        android:foreground="@mipmap/brain_3_podium" />
+
+    <Button
+        android:id="@+id/quit_btn"
+        android:layout_width="139dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="65dp"
+        android:background="@color/empty"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="75dp"
+        android:rotation="5"
+        android:text="@string/quit_str"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="163dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/empty"
+        android:gravity="center"
+        android:text="@string/start_new_game_str"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="428dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/empty"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="75dp"
+        android:rotation="355"
+        android:text="@string/continue_str"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

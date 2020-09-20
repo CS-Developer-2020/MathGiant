@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Math Giant</string>
+
+    <string name="class_grade">כיתה</string>
+    <string name="player_name">שחקן</string>
+    <string name="level">שלב</string>
+    <string name="normal_radio_btn">מתחיל</string>
+    <string name="advance_radio_btn">מתקדם</string>
+    <string name="start_btn">התחל</string>
+    <string name="back_btn">חזור</string>
+</resources>

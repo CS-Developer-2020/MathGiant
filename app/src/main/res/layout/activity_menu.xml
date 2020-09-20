@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/commonm_menu_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Settings_btn"
+        android:layout_width="30dp"
+        android:onClick="didTapButton"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/setting"
+        android:foreground="@drawable/ic_settings_black_24dp"
+        android:src="@drawable/setting"
+        android:textSize="15dp" />
+
+
+    <com.example.user.mathgiant.Circle
+        android:id="@+id/circle"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="-7dp"
+        android:orientation="horizontal" />
+
+    <ImageButton
+        android:id="@+id/menu_question"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-21dp"
+        android:layout_marginBottom="53dp"
+        android:layout_toStartOf="@id/Settings_btn"
+        android:background="@color/empty"
+        android:src="@mipmap/menu_btn_question"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        />
+
+    <ImageButton
+        android:id="@+id/menu_music"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="22dp"
+        android:layout_toStartOf="@id/Settings_btn"
+        android:background="@color/empty"
+        android:src="@mipmap/menu_btn_music_on"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+
+        />
+
+    <ImageButton
+        android:id="@+id/menu_exit"
+        android:layout_width="33dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="52dp"
+        android:layout_toStartOf="@id/Settings_btn"
+        android:background="@color/empty"
+        android:src="@mipmap/menu_btn_exit"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+
+        />
+
+    <ImageButton
+        android:id="@+id/menu_vib"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="87.5dp"
+        android:layout_toStartOf="@id/Settings_btn"
+        android:background="@color/empty"
+        android:src="@mipmap/menu_btn_vib"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="statusBarColor" tools:ignore="MissingDefaultResource">#726E70</color>
+    <color name="empty">#00FCFCFC</color>
+    <color name="score_color">#F7EC18C6</color>
+    <color name="time_color_one">#AC0599</color>
+    <color name="orange">#FFAB40</color>
+    <color name="red">#EB1030</color>
+    <color name="black">#131212</color>
+    <color name="yellow">#FFD740</color>
+    <color name="gray">#F56B6B6B</color>
+    <color name="darkOrange">#E47111</color>
+    <color name="red2">#9C2D3E</color>
+    <color name="white">#FAF9F7</color>
+
+
+    <color name="time_color_three">#70F31DDD</color>
+</resources>

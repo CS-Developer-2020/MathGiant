@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Math Giant</string>
+    <string name="player_name" >Player</string>
+    <string name="class_grade">CLASS :</string>
+    <string name="level">LEVEL :</string>
+    <string name="normal_radio_str">Normal</string>
+    <string name="advance_radio_str">Advance</string>
+    <string name="start_str">Start</string>
+    <string name="back_str">Back</string>
+    <string name="quit_str">Quit</string>
+    <string name="start_new_game_str">Start New Game</string>
+    <string name="continue_str">Continue</string>
+    <string name="high_score_str">High Score</string>High/string>
+
+
+    <string-array name="class_grades">
+
+        <item>@string/first_second_grade</item>
+        <item>@string/third_fourth_grade</item>
+        <item>@string/fifth_sixth_grade</item>
+
+    </string-array>
+
+    <string name="first_second_grade">First - Second grage</string>
+    <string name="third_fourth_grade">Third - Fourth grade</string>
+    <string name="fifth_sixth_grade">Fifth - Sixth grade</string>
+    <string name="game_over_sorry">We are sorry!</string>
+    <string name="game_over_scor">Your score :</string>
+</resources>

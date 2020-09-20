@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/first_screen_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_map">
+
+
+    <ImageButton
+        android:id="@+id/level_1_IB"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/empty"
+        android:scaleType="fitXY"
+        android:src="@drawable/level_1"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/medal_1_IV"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="104dp"
+        android:background="@color/empty"
+        android:src="@drawable/medal_1"
+        android:visibility="invisible"
+        />
+
+
+    <ImageButton
+        android:id="@+id/level_2_IB"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="185dp"
+        android:background="@color/empty"
+        android:scaleType="fitXY"
+        android:src="@drawable/level_2"
+        android:alpha="0.5"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/lock_2_IV"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="188dp"
+        android:background="@color/empty"
+        android:src="@drawable/lock"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/medal_2_IV"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="189dp"
+        android:background="@color/empty"
+        android:src="@drawable/medal_2"
+        android:visibility="invisible"
+        />
+
+    <ImageButton
+        android:id="@+id/level_3_IB"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="145dp"
+        android:background="@color/empty"
+        android:scaleType="fitXY"
+        android:src="@drawable/level_3"
+        android:alpha="0.6"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/lock_3_IV"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="148dp"
+        android:background="@color/empty"
+        android:src="@drawable/lock"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/medal_3_IV"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="149dp"
+        android:background="@color/empty"
+        android:src="@drawable/medal_3"
+        android:visibility="invisible"
+        />
+
+    <ImageButton
+        android:id="@+id/level_4_IB"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="333dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/empty"
+        android:scaleType="fitXY"
+        android:src="@drawable/level_4"
+        android:alpha="0.6"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/lock_4_IV"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="123dp"
+        android:background="@color/empty"
+        android:src="@drawable/lock"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/medal_4_IV"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="339dp"
+        android:layout_marginTop="124dp"
+        android:background="@color/empty"
+        android:src="@drawable/medal_4"
+        android:visibility="invisible"
+
+        />
+
+    <ImageButton
+        android:id="@+id/level_5_IB"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="452dp"
+        android:layout_marginTop="137dp"
+        android:background="@color/empty"
+        android:scaleType="fitXY"
+        android:src="@drawable/level_5"
+        android:alpha="0.6"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/lock_5_IV"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="456dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/empty"
+        android:src="@drawable/lock"
+        android:onClick="onClick"
+        />
+
+    <ImageView
+        android:id="@+id/medal_5_IV"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="457dp"
+        android:layout_marginTop="141dp"
+        android:background="@color/empty"
+        android:src="@drawable/medal_5"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

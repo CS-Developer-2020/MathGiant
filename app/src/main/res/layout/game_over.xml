@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/game_over_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/game_over_IV"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitXY"
+    android:src="@mipmap/game_over"
+    />
+<TextView
+    android:id="@+id/sorry_TV"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:text="@string/game_over_sorry"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:layout_marginTop="130dp"
+    android:textSize="25sp"
+    android:gravity="center"
+    android:layout_marginStart="147dp"/>
+
+    <TextView
+        android:id="@+id/player_name_TV"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/sorry_TV"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginStart="150dp"
+        />
+
+
+
+        <TextView
+            android:id="@+id/game_over_score"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:paddingTop="5dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/player_name_TV"
+            android:textSize="25sp"
+            android:text="@string/game_over_scor"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="-15dp"
+            android:layout_marginStart="140dp"
+            />
+
+    <Button
+        android:id="@+id/game_over_Btn"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/game_over_score"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-5dp"
+
+        android:text="OK"
+
+        android:background="@drawable/ok_game_over"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
