@@ -5,24 +5,33 @@
 ©️ <b> Alexey Shatalov & Yaron Romano</b> ©️
 
 <p>Developing a game in an Android environment using OOP in JAVA.
-The game was developed, designed and implemented using SQLite, Multithreading, Animations, Adapters, Intents, Services.</p>
+The game was developed, designed and implemented using Multithreading, Animations, Adapters, Intents</p>
 
 <b> Here you can find a summary of our project:</b>
 <br>
 https://youtu.be/yrNcK4zmwLM
 
-A mathematical game to solving essay and subtraction, multiplication and division exercises. The difficulty levels are: beginner and advanced. Each stage is accompanied by experiential music, animations and sounds.
+
+
 To control music used Singelton pattern. User can turn off/on music and vibration at any time. To flip balloons on screen used Asynchronous thread. Have a high score table. To get to the next level you have to answer 8 times correctly, to lose you have 3 attempts to make a mistake.
 
 
 
+
+
+
 <h1>What is the purpose of the game?</h1>
-<p>Swipe your finger to guide a spaceship in the galaxy to avoid asteroids and collect coins.
-Try to collect as many coins as possible. Get additional bombs and challenge your friends with your best high score!</p>
+<p>A mathematical game in which students practice in an experiential way solving addition and subtraction, multiplication and division exercises.
+The app is intended to be used as a learning tool for students, in order to develop the ability to think and logic in a set time.
+The game examines students' solving strategies in exercises in this area.
+The game begins with simple wishes and as you progress through the stages the level of difficulty increases.
+Degrees of difficulty are: beginner and advanced.
+Each stage is accompanied by experiential music, animations and sounds.
+A game open to the general public and suitable for students in grades one through six according to level of difficulty.</p>
 
 <h1>What can we do in this app?</h1>
 <p>
-⭐ Play 2 kinds of game! (Normal and Advanced)
+⭐ Play 2 kinds of game! (Beginner and Advanced)
   <br>
 📝 Dialogs instructions in the entire game
   <br>
