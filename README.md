@@ -2,7 +2,7 @@
 
 <b>🧠🎓  MathGiant  🎓🧠 </b>
 <br>
-©️ <b> Alexey Shatalov & Yaron Romano</b> ©️
+©️ Alexey Shatalov & Yaron Romano ©️
 
 <p>Developing a game in an Android environment using OOP in JAVA.
 The game was developed, designed and implemented using Multithreading, Animations, Adapters, Intents</p>
